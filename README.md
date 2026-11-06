@@ -19,15 +19,15 @@ python scripts/build.py
 ```
 
 构建从锁定的官方源码归档生成三份 PIC 静态库。产物位于 `dist/`，包含
-`mbedtls-oh-0.1.0.har` 和 SHA-256 校验文件。可传入 `--archive` 使用已有的同哈希归档。
+`mbedtls-oh-0.1.1.har` 和 SHA-256 校验文件。可传入 `--archive` 使用已有的同哈希归档。
 
 ## 安装与接入
 
-从 [GitHub Release](https://github.com/DreamistW/mbedtls-oh/releases/tag/v0.1.0)
+从 [GitHub Release](https://github.com/DreamistW/mbedtls-oh/releases/tag/v0.1.1)
 下载 HAR 和 SHA-256 校验文件。在宿主模块目录核对哈希后安装。
 
 ```sh
-ohpm install ./mbedtls-oh-0.1.0.har
+ohpm install ./mbedtls-oh-0.1.1.har
 ```
 
 假设 `CMakeLists.txt` 位于宿主模块的 `src/main/cpp`，`oh_modules` 位于模块根目录。
@@ -151,7 +151,7 @@ TCP 建连和整个请求的截止时间由宿主管理。
 ## GitHub Release
 
 推送 `main` 运行构建并上传 Actions artifact。推送与包版本一致的稳定标签
-（例如 `v0.1.0`）发布版本化 HAR 与 SHA-256 校验文件。CI 使用按摘要固定的 API 26 镜像。
+（例如 `v0.1.1`）发布版本化 HAR 与 SHA-256 校验文件。CI 使用按摘要固定的 API 26 镜像。
 
 ## 许可
 

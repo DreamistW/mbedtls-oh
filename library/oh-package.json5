@@ -1,6 +1,6 @@
 {
   "name": "mbedtls-oh",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "mbedtls-oh for HarmonyOS 2in1",
   "main": "Index.ets",
   "license": "Apache-2.0",
