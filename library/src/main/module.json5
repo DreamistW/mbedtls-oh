@@ -1,0 +1,9 @@
+{
+  "module": {
+    "name": "mbedtls_oh",
+    "type": "har",
+    "deviceTypes": [
+      "2in1"
+    ]
+  }
+}

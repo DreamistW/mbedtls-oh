@@ -1,0 +1,10 @@
+{
+  "name": "mbedtls-oh",
+  "version": "0.1.0",
+  "description": "mbedtls-oh for HarmonyOS 2in1",
+  "main": "Index.ets",
+  "license": "Apache-2.0",
+  "sourceType": "open",
+  "repository": "https://github.com/DreamistW/mbedtls-oh.git",
+  "dependencies": {}
+}
